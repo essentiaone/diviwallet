@@ -9,7 +9,7 @@ package txrules
 import (
 	"errors"
 
-	"github.com/btcsuite/btcutil"
+	"github.com/htkachuk/btcutil"
 	"github.com/htkachuk/divi/txscript"
 	"github.com/htkachuk/divi/wire"
 )
