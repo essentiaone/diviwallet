@@ -1,4 +1,4 @@
-// Copyright (c) 2016 The htkachuk developers
+// Copyright (c) 2016 The btcsuite developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,9 +9,9 @@ package txrules
 import (
 	"errors"
 
-	"github.com/htkachuk/btcd/txscript"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
+	"github.com/btcsuite/btcutil"
+	"github.com/htkachuk/divi/txscript"
+	"github.com/htkachuk/divi/wire"
 )
 
 // DefaultRelayFeePerKb is the default minimum relay fee policy for a mempool.
