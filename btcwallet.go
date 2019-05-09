@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2015 The btcsuite developers
+// Copyright (c) 2013-2015 The htkachuk developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -14,10 +14,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/rpc/legacyrpc"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/htkachuk/btcwallet/chain"
+	"github.com/htkachuk/btcwallet/rpc/legacyrpc"
+	"github.com/htkachuk/btcwallet/wallet"
+	"github.com/htkachuk/btcwallet/walletdb"
 	"github.com/lightninglabs/neutrino"
 )
 

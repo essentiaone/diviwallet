@@ -1,10 +1,10 @@
-// Copyright (c) 2013-2015 The btcsuite developers
+// Copyright (c) 2013-2015 The htkachuk developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package legacyrpc
 
-import "github.com/btcsuite/btclog"
+import "github.com/htkachuk/btclog"
 
 var log = btclog.Disabled
 

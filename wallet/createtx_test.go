@@ -1,4 +1,4 @@
-// Copyright (c) 2018 The btcsuite developers
+// Copyright (c) 2018 The htkachuk developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -11,15 +11,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/htkachuk/btcd/chaincfg"
+	"github.com/htkachuk/btcd/chaincfg/chainhash"
+	"github.com/htkachuk/btcd/txscript"
+	"github.com/htkachuk/btcd/wire"
+	"github.com/htkachuk/btcutil/hdkeychain"
+	"github.com/htkachuk/btcwallet/waddrmgr"
+	"github.com/htkachuk/btcwallet/walletdb"
+	_ "github.com/htkachuk/btcwallet/walletdb/bdb"
+	"github.com/htkachuk/btcwallet/wtxmgr"
 )
 
 // TestTxToOutput checks that no new address is added to he database if we

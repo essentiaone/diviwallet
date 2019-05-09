@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The htkachuk developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,16 +12,16 @@ import (
 
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/rpcclient"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/internal/cfgutil"
-	"github.com/btcsuite/btcwallet/netparams"
-	"github.com/btcsuite/btcwallet/wallet/txauthor"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
+	"github.com/htkachuk/btcd/btcjson"
+	"github.com/htkachuk/btcd/chaincfg/chainhash"
+	"github.com/htkachuk/btcd/rpcclient"
+	"github.com/htkachuk/btcd/txscript"
+	"github.com/htkachuk/btcd/wire"
+	"github.com/htkachuk/btcutil"
+	"github.com/htkachuk/btcwallet/internal/cfgutil"
+	"github.com/htkachuk/btcwallet/netparams"
+	"github.com/htkachuk/btcwallet/wallet/txauthor"
+	"github.com/htkachuk/btcwallet/wallet/txrules"
 	"github.com/jessevdk/go-flags"
 )
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The htkachuk developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,13 +10,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcd/rpcclient"
-	"github.com/btcsuite/btclog"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/rpc/legacyrpc"
-	"github.com/btcsuite/btcwallet/rpc/rpcserver"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/htkachuk/btcd/rpcclient"
+	"github.com/htkachuk/btclog"
+	"github.com/htkachuk/btcwallet/chain"
+	"github.com/htkachuk/btcwallet/rpc/legacyrpc"
+	"github.com/htkachuk/btcwallet/rpc/rpcserver"
+	"github.com/htkachuk/btcwallet/wallet"
+	"github.com/htkachuk/btcwallet/wtxmgr"
 	"github.com/jrick/logrotate/rotator"
 	"github.com/lightninglabs/neutrino"
 )

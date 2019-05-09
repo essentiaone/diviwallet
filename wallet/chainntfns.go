@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2015 The btcsuite developers
+// Copyright (c) 2013-2015 The htkachuk developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,13 +10,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/htkachuk/btcd/chaincfg/chainhash"
+	"github.com/htkachuk/btcd/txscript"
+	"github.com/htkachuk/btcd/wire"
+	"github.com/htkachuk/btcwallet/chain"
+	"github.com/htkachuk/btcwallet/waddrmgr"
+	"github.com/htkachuk/btcwallet/walletdb"
+	"github.com/htkachuk/btcwallet/wtxmgr"
 )
 
 const (

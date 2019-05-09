@@ -1,14 +1,14 @@
-// Copyright (c) 2015 The btcsuite developers
+// Copyright (c) 2015 The htkachuk developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package wallet
 
 import (
-	"github.com/btcsuite/btclog"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb/migration"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/htkachuk/btclog"
+	"github.com/htkachuk/btcwallet/waddrmgr"
+	"github.com/htkachuk/btcwallet/walletdb/migration"
+	"github.com/htkachuk/btcwallet/wtxmgr"
 )
 
 // log is a logger that is initialized with no output filters.  This

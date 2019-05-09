@@ -1,14 +1,14 @@
-// Copyright (c) 2016 The btcsuite developers
+// Copyright (c) 2016 The htkachuk developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package txsizes
 
 import (
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/htkachuk/btcd/blockchain"
+	"github.com/htkachuk/btcd/wire"
 
-	h "github.com/btcsuite/btcwallet/internal/helpers"
+	h "github.com/htkachuk/btcwallet/internal/helpers"
 )
 
 // Worst case script and input/output size estimates.

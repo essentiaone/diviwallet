@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The btcsuite developers
+// Copyright (c) 2014 The htkachuk developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/internal/zero"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/htkachuk/btcd/btcec"
+	"github.com/htkachuk/btcd/txscript"
+	"github.com/htkachuk/btcutil"
+	"github.com/htkachuk/btcutil/hdkeychain"
+	"github.com/htkachuk/btcwallet/internal/zero"
+	"github.com/htkachuk/btcwallet/walletdb"
 )
 
 // AddressType represents the various address types waddrmgr is currently able
