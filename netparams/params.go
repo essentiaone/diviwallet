@@ -26,7 +26,7 @@ var MainNetParams = Params{
 // btcd on the test network (version 3) (wire.TestNet3).
 var TestNet3Params = Params{
 	Params:        &chaincfg.TestNet3Params,
-	RPCClientPort: "51476",
+	RPCClientPort: "51475",
 	RPCServerPort: "51475",
 }
 
