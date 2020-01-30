@@ -10,8 +10,8 @@ import (
 	"errors"
 
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/divi/txscript"
-	"github.com/essentiaone/divi/wire"
+	"github.com/essentiaone/divid/txscript"
+	"github.com/essentiaone/divid/wire"
 )
 
 // DefaultRelayFeePerKb is the default minimum relay fee policy for a mempool.
