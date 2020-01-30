@@ -14,7 +14,7 @@ import (
 
 	"github.com/essentiaone/btcutil/hdkeychain"
 	"github.com/essentiaone/diviwallet/internal/legacy/keystore"
-	"github.com/essentiaone/golangcrypto/ssh/terminal"
+	"golang.org/x/crypto/golangcrypto/ssh/terminal"
 )
 
 // ProvideSeed is used to prompt for the wallet seed which maybe required during
