@@ -1,4 +1,4 @@
-// Copyright (c) 2016 The htkachuk developers
+// Copyright (c) 2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,12 +7,12 @@ package txauthor_test
 import (
 	"testing"
 
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
-	. "github.com/htkachuk/btcwallet/wallet/txauthor"
-	"github.com/htkachuk/btcwallet/wallet/txrules"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcutil"
+	. "github.com/essentiaone/btcwallet/wallet/txauthor"
+	"github.com/essentiaone/btcwallet/wallet/txrules"
 
-	"github.com/htkachuk/btcwallet/wallet/internal/txsizes"
+	"github.com/essentiaone/btcwallet/wallet/internal/txsizes"
 )
 
 func p2pkhOutputs(amounts ...btcutil.Amount) []*wire.TxOut {

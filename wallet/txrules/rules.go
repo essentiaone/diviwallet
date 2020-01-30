@@ -9,9 +9,9 @@ package txrules
 import (
 	"errors"
 
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/divi/txscript"
-	"github.com/htkachuk/divi/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/divi/txscript"
+	"github.com/essentiaone/divi/wire"
 )
 
 // DefaultRelayFeePerKb is the default minimum relay fee policy for a mempool.

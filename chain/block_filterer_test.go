@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/htkachuk/btcd/chaincfg"
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcwallet/chain"
+	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcwallet/chain"
 )
 
 var Block100000 = wire.MsgBlock{

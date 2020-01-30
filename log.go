@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The htkachuk developers
+// Copyright (c) 2013-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,13 +10,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/htkachuk/btcd/rpcclient"
-	"github.com/htkachuk/btclog"
-	"github.com/htkachuk/btcwallet/chain"
-	"github.com/htkachuk/btcwallet/rpc/legacyrpc"
-	"github.com/htkachuk/btcwallet/rpc/rpcserver"
-	"github.com/htkachuk/btcwallet/wallet"
-	"github.com/htkachuk/btcwallet/wtxmgr"
+	"github.com/essentiaone/btcd/rpcclient"
+	"github.com/essentiaone/btclog"
+	"github.com/essentiaone/btcwallet/chain"
+	"github.com/essentiaone/btcwallet/rpc/legacyrpc"
+	"github.com/essentiaone/btcwallet/rpc/rpcserver"
+	"github.com/essentiaone/btcwallet/wallet"
+	"github.com/essentiaone/btcwallet/wtxmgr"
 	"github.com/jrick/logrotate/rotator"
 	"github.com/lightninglabs/neutrino"
 )

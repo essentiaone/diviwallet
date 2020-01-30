@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2015 The htkachuk developers
+// Copyright (c) 2014-2015 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -11,16 +11,16 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/htkachuk/btcd/btcec"
-	"github.com/htkachuk/btcd/chaincfg"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcwallet/internal/legacy/keystore"
-	"github.com/htkachuk/btcwallet/internal/prompt"
-	"github.com/htkachuk/btcwallet/waddrmgr"
-	"github.com/htkachuk/btcwallet/wallet"
-	"github.com/htkachuk/btcwallet/walletdb"
-	_ "github.com/htkachuk/btcwallet/walletdb/bdb"
+	"github.com/essentiaone/btcd/btcec"
+	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcwallet/internal/legacy/keystore"
+	"github.com/essentiaone/btcwallet/internal/prompt"
+	"github.com/essentiaone/btcwallet/waddrmgr"
+	"github.com/essentiaone/btcwallet/wallet"
+	"github.com/essentiaone/btcwallet/walletdb"
+	_ "github.com/essentiaone/btcwallet/walletdb/bdb"
 )
 
 // networkDir returns the directory name of a network directory to hold wallet

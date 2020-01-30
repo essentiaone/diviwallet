@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The htkachuk developers
+// Copyright (c) 2013-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -13,12 +13,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/htkachuk/btcd/chaincfg"
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcwallet/walletdb"
-	_ "github.com/htkachuk/btcwallet/walletdb/bdb"
+	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcwallet/walletdb"
+	_ "github.com/essentiaone/btcwallet/walletdb/bdb"
 )
 
 // Received transaction output for mainnet outpoint

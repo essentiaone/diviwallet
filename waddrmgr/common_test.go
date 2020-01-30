@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The htkachuk developers
+// Copyright (c) 2014 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/htkachuk/btcd/chaincfg"
-	"github.com/htkachuk/btcwallet/walletdb"
-	_ "github.com/htkachuk/btcwallet/walletdb/bdb"
+	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/btcwallet/walletdb"
+	_ "github.com/essentiaone/btcwallet/walletdb/bdb"
 )
 
 var (

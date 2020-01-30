@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/htkachuk/btcd/chaincfg"
-	"github.com/htkachuk/btcwallet/walletdb"
+	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/btcwallet/walletdb"
 )
 
 // applyMigration is a helper function that allows us to assert the state of the

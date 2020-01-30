@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The htkachuk developers
+// Copyright (c) 2014 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,8 +7,8 @@ package waddrmgr
 import (
 	"time"
 
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcwallet/walletdb"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcwallet/walletdb"
 )
 
 // BlockStamp defines a block (by height and a unique hash) and is used to mark

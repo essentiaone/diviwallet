@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2015 The htkachuk developers
+// Copyright (c) 2013-2015 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -14,10 +14,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/htkachuk/btcwallet/chain"
-	"github.com/htkachuk/btcwallet/rpc/legacyrpc"
-	"github.com/htkachuk/btcwallet/wallet"
-	"github.com/htkachuk/btcwallet/walletdb"
+	"github.com/essentiaone/btcwallet/chain"
+	"github.com/essentiaone/btcwallet/rpc/legacyrpc"
+	"github.com/essentiaone/btcwallet/wallet"
+	"github.com/essentiaone/btcwallet/walletdb"
 	"github.com/lightninglabs/neutrino"
 )
 

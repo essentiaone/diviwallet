@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/htkachuk/btcd/chaincfg"
-	"github.com/htkachuk/btcwallet/internal/prompt"
-	"github.com/htkachuk/btcwallet/waddrmgr"
-	"github.com/htkachuk/btcwallet/walletdb"
+	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/btcwallet/internal/prompt"
+	"github.com/essentiaone/btcwallet/waddrmgr"
+	"github.com/essentiaone/btcwallet/walletdb"
 )
 
 const (

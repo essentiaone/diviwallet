@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/htkachuk/btcd/chaincfg"
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcd/rpcclient"
-	"github.com/htkachuk/btcd/wire"
+	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcd/rpcclient"
+	"github.com/essentiaone/btcd/wire"
 	"github.com/lightninglabs/gozmq"
 )
 

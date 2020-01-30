@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2016 The htkachuk developers
+// Copyright (c) 2013-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -11,11 +11,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/htkachuk/btcd/btcec"
-	"github.com/htkachuk/btcd/chaincfg"
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcd/txscript"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/btcd/btcec"
+	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcd/txscript"
+	"github.com/essentiaone/btcutil"
 	"github.com/davecgh/go-spew/spew"
 )
 

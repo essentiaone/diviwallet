@@ -1,4 +1,4 @@
-// Copyright (c) 2015 The htkachuk developers
+// Copyright (c) 2015 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,8 +12,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/htkachuk/btcd/btcjson"
-	"github.com/htkachuk/btcwallet/internal/rpchelp"
+	"github.com/essentiaone/btcd/btcjson"
+	"github.com/essentiaone/btcwallet/internal/rpchelp"
 )
 
 var outputFile = func() *os.File {

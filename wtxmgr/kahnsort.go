@@ -1,12 +1,12 @@
-// Copyright (c) 2016 The htkachuk developers
+// Copyright (c) 2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package wtxmgr
 
 import (
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcd/wire"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcd/wire"
 )
 
 type graphNode struct {

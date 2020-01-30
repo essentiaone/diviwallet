@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The htkachuk developers
+// Copyright (c) 2013-2017 The essentiaone developers
 // Copyright (c) 2015-2016 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -15,23 +15,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/htkachuk/btcd/blockchain"
-	"github.com/htkachuk/btcd/btcec"
-	"github.com/htkachuk/btcd/btcjson"
-	"github.com/htkachuk/btcd/chaincfg"
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcd/rpcclient"
-	"github.com/htkachuk/btcd/txscript"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcutil/hdkeychain"
-	"github.com/htkachuk/btcwallet/chain"
-	"github.com/htkachuk/btcwallet/waddrmgr"
-	"github.com/htkachuk/btcwallet/wallet/txauthor"
-	"github.com/htkachuk/btcwallet/wallet/txrules"
-	"github.com/htkachuk/btcwallet/walletdb"
-	"github.com/htkachuk/btcwallet/walletdb/migration"
-	"github.com/htkachuk/btcwallet/wtxmgr"
+	"github.com/essentiaone/btcd/blockchain"
+	"github.com/essentiaone/btcd/btcec"
+	"github.com/essentiaone/btcd/btcjson"
+	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcd/rpcclient"
+	"github.com/essentiaone/btcd/txscript"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcutil/hdkeychain"
+	"github.com/essentiaone/btcwallet/chain"
+	"github.com/essentiaone/btcwallet/waddrmgr"
+	"github.com/essentiaone/btcwallet/wallet/txauthor"
+	"github.com/essentiaone/btcwallet/wallet/txrules"
+	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/btcwallet/walletdb/migration"
+	"github.com/essentiaone/btcwallet/wtxmgr"
 	"github.com/davecgh/go-spew/spew"
 )
 

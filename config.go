@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The htkachuk developers
+// Copyright (c) 2013-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -15,11 +15,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcwallet/internal/cfgutil"
-	"github.com/htkachuk/btcwallet/internal/legacy/keystore"
-	"github.com/htkachuk/btcwallet/netparams"
-	"github.com/htkachuk/btcwallet/wallet"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcwallet/internal/cfgutil"
+	"github.com/essentiaone/btcwallet/internal/legacy/keystore"
+	"github.com/essentiaone/btcwallet/netparams"
+	"github.com/essentiaone/btcwallet/wallet"
 	flags "github.com/jessevdk/go-flags"
 	"github.com/lightninglabs/neutrino"
 )

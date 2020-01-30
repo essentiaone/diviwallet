@@ -9,14 +9,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/htkachuk/btcd/btcjson"
-	"github.com/htkachuk/btcd/chaincfg"
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcd/txscript"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcwallet/waddrmgr"
-	"github.com/htkachuk/btcwallet/wtxmgr"
+	"github.com/essentiaone/btcd/btcjson"
+	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcd/txscript"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcwallet/waddrmgr"
+	"github.com/essentiaone/btcwallet/wtxmgr"
 )
 
 var (

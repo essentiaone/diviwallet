@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The htkachuk developers
+// Copyright (c) 2014 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,7 +8,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/htkachuk/btcwallet/walletdb"
+	"github.com/essentiaone/btcwallet/walletdb"
 	"github.com/coreos/bbolt"
 )
 

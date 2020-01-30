@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The htkachuk developers
+// Copyright (c) 2013-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -19,10 +19,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/htkachuk/btcd/btcjson"
-	"github.com/htkachuk/btcwallet/chain"
-	"github.com/htkachuk/btcwallet/wallet"
-	"github.com/htkachuk/websocket"
+	"github.com/essentiaone/btcd/btcjson"
+	"github.com/essentiaone/btcwallet/chain"
+	"github.com/essentiaone/btcwallet/wallet"
+	"github.com/essentiaone/websocket"
 )
 
 type websocketClient struct {

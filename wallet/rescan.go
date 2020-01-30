@@ -1,16 +1,16 @@
-// Copyright (c) 2013-2017 The htkachuk developers
+// Copyright (c) 2013-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package wallet
 
 import (
-	"github.com/htkachuk/btcd/txscript"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcwallet/chain"
-	"github.com/htkachuk/btcwallet/waddrmgr"
-	"github.com/htkachuk/btcwallet/wtxmgr"
+	"github.com/essentiaone/btcd/txscript"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcwallet/chain"
+	"github.com/essentiaone/btcwallet/waddrmgr"
+	"github.com/essentiaone/btcwallet/wtxmgr"
 )
 
 // RescanProgressMsg reports the current progress made by a rescan for a

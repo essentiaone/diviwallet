@@ -1,4 +1,4 @@
-// Copyright (c) 2015 The htkachuk developers
+// Copyright (c) 2015 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/htkachuk/btcwallet/internal/zero"
+	. "github.com/essentiaone/btcwallet/internal/zero"
 )
 
 func makeOneBytes(n int) []byte {

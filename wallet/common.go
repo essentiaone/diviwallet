@@ -1,5 +1,5 @@
 // Copyright (c) 2016 The Decred developers
-// Copyright (c) 2017 The htkachuk developers
+// Copyright (c) 2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,9 +8,9 @@ package wallet
 import (
 	"time"
 
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcutil"
 )
 
 // Note: The following common types should never reference the Wallet type.

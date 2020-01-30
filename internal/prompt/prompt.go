@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,9 +12,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/htkachuk/btcutil/hdkeychain"
-	"github.com/htkachuk/btcwallet/internal/legacy/keystore"
-	"github.com/htkachuk/golangcrypto/ssh/terminal"
+	"github.com/essentiaone/btcutil/hdkeychain"
+	"github.com/essentiaone/btcwallet/internal/legacy/keystore"
+	"github.com/essentiaone/golangcrypto/ssh/terminal"
 )
 
 // ProvideSeed is used to prompt for the wallet seed which maybe required during

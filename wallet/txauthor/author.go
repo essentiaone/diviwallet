@@ -1,4 +1,4 @@
-// Copyright (c) 2016 The htkachuk developers
+// Copyright (c) 2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,14 +8,14 @@ package txauthor
 import (
 	"errors"
 
-	"github.com/htkachuk/btcd/chaincfg"
-	"github.com/htkachuk/btcd/txscript"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcwallet/wallet/txrules"
+	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/btcd/txscript"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcwallet/wallet/txrules"
 
-	h "github.com/htkachuk/btcwallet/internal/helpers"
-	"github.com/htkachuk/btcwallet/wallet/internal/txsizes"
+	h "github.com/essentiaone/btcwallet/internal/helpers"
+	"github.com/essentiaone/btcwallet/wallet/internal/txsizes"
 )
 
 // InputSource provides transaction inputs referencing spendable outputs to

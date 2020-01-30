@@ -1,10 +1,10 @@
-// Copyright (c) 2013-2015 The htkachuk developers
+// Copyright (c) 2013-2015 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package netparams
 
-import "github.com/htkachuk/btcd/chaincfg"
+import "github.com/essentiaone/btcd/chaincfg"
 
 // Params is used to group parameters for various networks such as the main
 // network and test networks.

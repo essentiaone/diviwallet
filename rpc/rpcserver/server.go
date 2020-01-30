@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,11 +8,11 @@
 // Full documentation of the API implemented by this package is maintained in a
 // language-agnostic document:
 //
-//   https://github.com/htkachuk/btcwallet/blob/master/rpc/documentation/api.md
+//   https://github.com/essentiaone/btcwallet/blob/master/rpc/documentation/api.md
 //
 // Any API changes must be performed according to the steps listed here:
 //
-//   https://github.com/htkachuk/btcwallet/blob/master/rpc/documentation/serverchanges.md
+//   https://github.com/essentiaone/btcwallet/blob/master/rpc/documentation/serverchanges.md
 package rpcserver
 
 import (
@@ -25,20 +25,20 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcd/rpcclient"
-	"github.com/htkachuk/btcd/txscript"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcutil/hdkeychain"
-	"github.com/htkachuk/btcwallet/chain"
-	"github.com/htkachuk/btcwallet/internal/cfgutil"
-	"github.com/htkachuk/btcwallet/internal/zero"
-	"github.com/htkachuk/btcwallet/netparams"
-	pb "github.com/htkachuk/btcwallet/rpc/walletrpc"
-	"github.com/htkachuk/btcwallet/waddrmgr"
-	"github.com/htkachuk/btcwallet/wallet"
-	"github.com/htkachuk/btcwallet/walletdb"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcd/rpcclient"
+	"github.com/essentiaone/btcd/txscript"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcutil/hdkeychain"
+	"github.com/essentiaone/btcwallet/chain"
+	"github.com/essentiaone/btcwallet/internal/cfgutil"
+	"github.com/essentiaone/btcwallet/internal/zero"
+	"github.com/essentiaone/btcwallet/netparams"
+	pb "github.com/essentiaone/btcwallet/rpc/walletrpc"
+	"github.com/essentiaone/btcwallet/waddrmgr"
+	"github.com/essentiaone/btcwallet/wallet"
+	"github.com/essentiaone/btcwallet/walletdb"
 )
 
 // Public API version constants

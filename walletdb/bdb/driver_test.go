@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The htkachuk developers
+// Copyright (c) 2014 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/htkachuk/btcwallet/walletdb"
-	_ "github.com/htkachuk/btcwallet/walletdb/bdb"
+	"github.com/essentiaone/btcwallet/walletdb"
+	_ "github.com/essentiaone/btcwallet/walletdb/bdb"
 )
 
 // dbType is the database type name for this driver.

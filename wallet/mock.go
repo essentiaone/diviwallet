@@ -3,11 +3,11 @@ package wallet
 import (
 	"time"
 
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcwallet/chain"
-	"github.com/htkachuk/btcwallet/waddrmgr"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcwallet/chain"
+	"github.com/essentiaone/btcwallet/waddrmgr"
 )
 
 type mockChainClient struct {

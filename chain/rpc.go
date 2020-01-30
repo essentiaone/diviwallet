@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2016 The htkachuk developers
+// Copyright (c) 2013-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,16 +9,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/htkachuk/btcd/btcjson"
-	"github.com/htkachuk/btcd/chaincfg"
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcd/rpcclient"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcutil/gcs"
-	"github.com/htkachuk/btcutil/gcs/builder"
-	"github.com/htkachuk/btcwallet/waddrmgr"
-	"github.com/htkachuk/btcwallet/wtxmgr"
+	"github.com/essentiaone/btcd/btcjson"
+	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcd/rpcclient"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcutil/gcs"
+	"github.com/essentiaone/btcutil/gcs/builder"
+	"github.com/essentiaone/btcwallet/waddrmgr"
+	"github.com/essentiaone/btcwallet/wtxmgr"
 )
 
 // RPCClient represents a persistent client connection to a bitcoin RPC server

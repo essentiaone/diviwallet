@@ -1,14 +1,14 @@
-// Copyright (c) 2015 The htkachuk developers
+// Copyright (c) 2015 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package wallet
 
 import (
-	"github.com/htkachuk/btclog"
-	"github.com/htkachuk/btcwallet/waddrmgr"
-	"github.com/htkachuk/btcwallet/walletdb/migration"
-	"github.com/htkachuk/btcwallet/wtxmgr"
+	"github.com/essentiaone/btclog"
+	"github.com/essentiaone/btcwallet/waddrmgr"
+	"github.com/essentiaone/btcwallet/walletdb/migration"
+	"github.com/essentiaone/btcwallet/wtxmgr"
 )
 
 // log is a logger that is initialized with no output filters.  This

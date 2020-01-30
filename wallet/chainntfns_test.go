@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/htkachuk/btcd/chaincfg"
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcwallet/waddrmgr"
-	_ "github.com/htkachuk/btcwallet/walletdb/bdb"
+	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcwallet/waddrmgr"
+	_ "github.com/essentiaone/btcwallet/walletdb/bdb"
 )
 
 var (

@@ -1,14 +1,14 @@
 // Copyright (c) 2016 The Decred developers
-// Copyright (c) 2017 The htkachuk developers
+// Copyright (c) 2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package wallet
 
 import (
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcwallet/walletdb"
-	"github.com/htkachuk/btcwallet/wtxmgr"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/btcwallet/wtxmgr"
 )
 
 type unstableAPI struct {

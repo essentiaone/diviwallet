@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2015 The htkachuk developers
+// Copyright (c) 2013-2015 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -16,10 +16,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcwallet/rpc/legacyrpc"
-	"github.com/htkachuk/btcwallet/rpc/rpcserver"
-	"github.com/htkachuk/btcwallet/wallet"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcwallet/rpc/legacyrpc"
+	"github.com/essentiaone/btcwallet/rpc/rpcserver"
+	"github.com/essentiaone/btcwallet/wallet"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

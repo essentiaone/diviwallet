@@ -1,6 +1,6 @@
 version: "{build}"
 
-clone_folder: c:\projects\src\github.com\htkachuk\btcwallet
+clone_folder: c:\projects\src\github.com\essentiaone\btcwallet
 
 environment:
  PATH: c:\projects\bin;%PATH%

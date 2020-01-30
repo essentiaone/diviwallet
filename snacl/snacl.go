@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The htkachuk developers
+// Copyright (c) 2014-2017 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -13,9 +13,9 @@ import (
 	"io"
 	"runtime/debug"
 
-	"github.com/htkachuk/btcwallet/internal/zero"
-	"github.com/htkachuk/golangcrypto/nacl/secretbox"
-	"github.com/htkachuk/golangcrypto/scrypt"
+	"github.com/essentiaone/btcwallet/internal/zero"
+	"github.com/essentiaone/golangcrypto/nacl/secretbox"
+	"github.com/essentiaone/golangcrypto/scrypt"
 )
 
 var (

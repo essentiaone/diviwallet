@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,16 +12,16 @@ import (
 
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/htkachuk/btcd/btcjson"
-	"github.com/htkachuk/btcd/chaincfg/chainhash"
-	"github.com/htkachuk/btcd/rpcclient"
-	"github.com/htkachuk/btcd/txscript"
-	"github.com/htkachuk/btcd/wire"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcwallet/internal/cfgutil"
-	"github.com/htkachuk/btcwallet/netparams"
-	"github.com/htkachuk/btcwallet/wallet/txauthor"
-	"github.com/htkachuk/btcwallet/wallet/txrules"
+	"github.com/essentiaone/btcd/btcjson"
+	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/btcd/rpcclient"
+	"github.com/essentiaone/btcd/txscript"
+	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcwallet/internal/cfgutil"
+	"github.com/essentiaone/btcwallet/netparams"
+	"github.com/essentiaone/btcwallet/wallet/txauthor"
+	"github.com/essentiaone/btcwallet/wallet/txrules"
 	"github.com/jessevdk/go-flags"
 )
 

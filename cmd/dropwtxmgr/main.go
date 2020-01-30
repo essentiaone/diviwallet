@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcwallet/waddrmgr"
-	"github.com/htkachuk/btcwallet/walletdb"
-	_ "github.com/htkachuk/btcwallet/walletdb/bdb"
-	"github.com/htkachuk/btcwallet/wtxmgr"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcwallet/waddrmgr"
+	"github.com/essentiaone/btcwallet/walletdb"
+	_ "github.com/essentiaone/btcwallet/walletdb/bdb"
+	"github.com/essentiaone/btcwallet/wtxmgr"
 	"github.com/jessevdk/go-flags"
 )
 

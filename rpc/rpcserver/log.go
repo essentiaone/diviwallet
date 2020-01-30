@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The htkachuk developers
+// Copyright (c) 2015-2016 The essentiaone developers
 //
 // Permission to use, copy, modify, and distribute this software for any
 // purpose with or without fee is hereby granted, provided that the above
@@ -20,7 +20,7 @@ import (
 
 	"google.golang.org/grpc/grpclog"
 
-	"github.com/htkachuk/btclog"
+	"github.com/essentiaone/btclog"
 )
 
 // UseLogger sets the logger to use for the gRPC server.

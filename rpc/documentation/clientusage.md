@@ -52,12 +52,12 @@ import (
 	"fmt"
 	"path/filepath"
 
-	pb "github.com/htkachuk/btcwallet/rpc/walletrpc"
+	pb "github.com/essentiaone/btcwallet/rpc/walletrpc"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/htkachuk/btcutil"
+	"github.com/essentiaone/btcutil"
 )
 
 var certificateFile = filepath.Join(btcutil.AppDataDir("btcwallet", false), "rpc.cert")
@@ -394,7 +394,7 @@ Full instructions for this procedure can be found
 Generate Python stubs from the `.proto`:
 
 ```bash
-$ protoc -I /path/to/htkachuk/btcwallet/rpc --python_out=. --grpc_out=. \
+$ protoc -I /path/to/essentiaone/btcwallet/rpc --python_out=. --grpc_out=. \
   --plugin=protoc-gen-grpc=$(which grpc_python_plugin) \
   /path/to/btcwallet/rpc/api.proto
 ```

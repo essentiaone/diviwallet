@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The htkachuk developers
+// Copyright (c) 2014 The essentiaone developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/htkachuk/btcd/btcec"
-	"github.com/htkachuk/btcd/txscript"
-	"github.com/htkachuk/btcutil"
-	"github.com/htkachuk/btcutil/hdkeychain"
-	"github.com/htkachuk/btcwallet/internal/zero"
-	"github.com/htkachuk/btcwallet/walletdb"
+	"github.com/essentiaone/btcd/btcec"
+	"github.com/essentiaone/btcd/txscript"
+	"github.com/essentiaone/btcutil"
+	"github.com/essentiaone/btcutil/hdkeychain"
+	"github.com/essentiaone/btcwallet/internal/zero"
+	"github.com/essentiaone/btcwallet/walletdb"
 )
 
 // AddressType represents the various address types waddrmgr is currently able
