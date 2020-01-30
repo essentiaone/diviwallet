@@ -9,8 +9,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/essentiaone/btcwallet/walletdb"
-	_ "github.com/essentiaone/btcwallet/walletdb/bdb"
+	"github.com/essentiaone/diviwallet/walletdb"
+	_ "github.com/essentiaone/diviwallet/walletdb/bdb"
 )
 
 var (

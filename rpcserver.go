@@ -17,9 +17,9 @@ import (
 	"time"
 
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/btcwallet/rpc/legacyrpc"
-	"github.com/essentiaone/btcwallet/rpc/rpcserver"
-	"github.com/essentiaone/btcwallet/wallet"
+	"github.com/essentiaone/diviwallet/rpc/legacyrpc"
+	"github.com/essentiaone/diviwallet/rpc/rpcserver"
+	"github.com/essentiaone/diviwallet/wallet"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

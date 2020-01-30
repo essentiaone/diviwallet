@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/essentiaone/btcwallet/wallet"
+	"github.com/essentiaone/diviwallet/wallet"
 )
 
 // Harness holds the BranchRecoveryState being tested, the recovery window being

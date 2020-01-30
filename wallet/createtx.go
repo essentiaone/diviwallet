@@ -9,14 +9,14 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/essentiaone/btcd/btcec"
-	"github.com/essentiaone/btcd/txscript"
-	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/divid/btcec"
+	"github.com/essentiaone/divid/txscript"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/btcwallet/waddrmgr"
-	"github.com/essentiaone/btcwallet/wallet/txauthor"
-	"github.com/essentiaone/btcwallet/walletdb"
-	"github.com/essentiaone/btcwallet/wtxmgr"
+	"github.com/essentiaone/diviwallet/waddrmgr"
+	"github.com/essentiaone/diviwallet/wallet/txauthor"
+	"github.com/essentiaone/diviwallet/walletdb"
+	"github.com/essentiaone/diviwallet/wtxmgr"
 )
 
 // byAmount defines the methods needed to satisify sort.Interface to

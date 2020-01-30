@@ -12,8 +12,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/essentiaone/btcd/btcjson"
-	"github.com/essentiaone/btcwallet/internal/rpchelp"
+	"github.com/essentiaone/divid/btcjson"
+	"github.com/essentiaone/diviwallet/internal/rpchelp"
 )
 
 var outputFile = func() *os.File {

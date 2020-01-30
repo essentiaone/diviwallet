@@ -1,7 +1,7 @@
 btcwallet
 =========
 
-[![Build Status](https://travis-ci.org/essentiaone/btcwallet.png?branch=master)](https://travis-ci.org/essentiaone/btcwallet)
+[![Build Status](https://travis-ci.org/essentiaone/diviwallet.png?branch=master)](https://travis-ci.org/essentiaone/diviwallet)
 [![Build status](https://ci.appveyor.com/api/projects/status/88nxvckdj8upqr36/branch/master?svg=true)](https://ci.appveyor.com/project/jrick/btcwallet/branch/master)
 
 btcwallet is a daemon handling bitcoin wallet functionality for a
@@ -60,9 +60,9 @@ Wallet clients can use one of two RPC servers:
 
 Install the latest MSIs available here:
 
-https://github.com/essentiaone/btcd/releases
+https://github.com/essentiaone/divid/releases
 
-https://github.com/essentiaone/btcwallet/releases
+https://github.com/essentiaone/diviwallet/releases
 
 ### Windows/Linux/BSD/POSIX - Build from source
 
@@ -96,8 +96,8 @@ For a first time installation, the project and dependency sources can be
 obtained manually with `git` and `glide` (create directories as needed):
 
 ```
-git clone https://github.com/essentiaone/btcwallet $GOPATH/src/github.com/essentiaone/btcwallet
-cd $GOPATH/src/github.com/essentiaone/btcwallet
+git clone https://github.com/essentiaone/diviwallet $GOPATH/src/github.com/essentiaone/diviwallet
+cd $GOPATH/src/github.com/essentiaone/diviwallet
 glide install
 ```
 
@@ -105,7 +105,7 @@ To update an existing source tree, pull the latest changes and install the
 matching dependencies:
 
 ```
-cd $GOPATH/src/github.com/essentiaone/btcwallet
+cd $GOPATH/src/github.com/essentiaone/diviwallet
 git pull
 glide install
 ```
@@ -182,15 +182,15 @@ PS> $editor $env:LOCALAPPDATA\Btcwallet\btcwallet.conf
 
 Linux/BSD/POSIX (Installed from source):
 ```bash
-$ cp $GOPATH/src/github.com/essentiaone/btcd/sample-btcd.conf ~/.btcd/btcd.conf
-$ cp $GOPATH/src/github.com/essentiaone/btcwallet/sample-btcwallet.conf ~/.btcwallet/btcwallet.conf
+$ cp $GOPATH/src/github.com/essentiaone/divid/sample-btcd.conf ~/.btcd/btcd.conf
+$ cp $GOPATH/src/github.com/essentiaone/diviwallet/sample-btcwallet.conf ~/.btcwallet/btcwallet.conf
 $ $EDITOR ~/.btcd/btcd.conf
 $ $EDITOR ~/.btcwallet/btcwallet.conf
 ```
 
 ## Issue Tracker
 
-The [integrated github issue tracker](https://github.com/essentiaone/btcwallet/issues)
+The [integrated github issue tracker](https://github.com/essentiaone/diviwallet/issues)
 is used for this project.
 
 ## GPG Verification Key

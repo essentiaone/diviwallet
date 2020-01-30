@@ -7,7 +7,7 @@
 package helpers
 
 import (
-	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
 )
 

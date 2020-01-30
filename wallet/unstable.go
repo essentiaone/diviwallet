@@ -6,9 +6,9 @@
 package wallet
 
 import (
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
-	"github.com/essentiaone/btcwallet/walletdb"
-	"github.com/essentiaone/btcwallet/wtxmgr"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/diviwallet/walletdb"
+	"github.com/essentiaone/diviwallet/wtxmgr"
 )
 
 type unstableAPI struct {

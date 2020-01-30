@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/essentiaone/btcd/btcec"
-	"github.com/essentiaone/btcd/txscript"
+	"github.com/essentiaone/divid/btcec"
+	"github.com/essentiaone/divid/txscript"
 	"github.com/essentiaone/btcutil"
 	"github.com/essentiaone/btcutil/hdkeychain"
-	"github.com/essentiaone/btcwallet/internal/zero"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/diviwallet/internal/zero"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 // AddressType represents the various address types waddrmgr is currently able

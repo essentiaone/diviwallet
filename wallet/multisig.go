@@ -8,10 +8,10 @@ package wallet
 import (
 	"errors"
 
-	"github.com/essentiaone/btcd/txscript"
+	"github.com/essentiaone/divid/txscript"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/btcwallet/waddrmgr"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/diviwallet/waddrmgr"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 // MakeMultiSigScript creates a multi-signature script that can be redeemed with

@@ -9,12 +9,12 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/essentiaone/btcd/blockchain"
-	"github.com/essentiaone/btcd/chaincfg"
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
-	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/divid/blockchain"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 // Block contains the minimum amount of data to uniquely identify any block on

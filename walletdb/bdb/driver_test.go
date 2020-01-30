@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/btcwallet/walletdb"
-	_ "github.com/essentiaone/btcwallet/walletdb/bdb"
+	"github.com/essentiaone/diviwallet/walletdb"
+	_ "github.com/essentiaone/diviwallet/walletdb/bdb"
 )
 
 // dbType is the database type name for this driver.

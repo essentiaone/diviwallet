@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/essentiaone/btcd/wire"
-	. "github.com/essentiaone/btcwallet/wallet/internal/txsizes"
+	"github.com/essentiaone/divid/wire"
+	. "github.com/essentiaone/diviwallet/wallet/internal/txsizes"
 )
 
 const (

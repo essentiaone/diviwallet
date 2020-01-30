@@ -7,12 +7,12 @@ package txauthor_test
 import (
 	"testing"
 
-	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
-	. "github.com/essentiaone/btcwallet/wallet/txauthor"
-	"github.com/essentiaone/btcwallet/wallet/txrules"
+	. "github.com/essentiaone/diviwallet/wallet/txauthor"
+	"github.com/essentiaone/diviwallet/wallet/txrules"
 
-	"github.com/essentiaone/btcwallet/wallet/internal/txsizes"
+	"github.com/essentiaone/diviwallet/wallet/internal/txsizes"
 )
 
 func p2pkhOutputs(amounts ...btcutil.Amount) []*wire.TxOut {

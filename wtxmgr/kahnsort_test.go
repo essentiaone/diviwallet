@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
-	"github.com/essentiaone/btcd/wire"
-	"github.com/essentiaone/btcwallet/wtxmgr"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
+	"github.com/essentiaone/diviwallet/wtxmgr"
 )
 
 // createTx is a helper method to create random transactions that spend

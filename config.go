@@ -16,10 +16,10 @@ import (
 	"time"
 
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/btcwallet/internal/cfgutil"
-	"github.com/essentiaone/btcwallet/internal/legacy/keystore"
-	"github.com/essentiaone/btcwallet/netparams"
-	"github.com/essentiaone/btcwallet/wallet"
+	"github.com/essentiaone/diviwallet/internal/cfgutil"
+	"github.com/essentiaone/diviwallet/internal/legacy/keystore"
+	"github.com/essentiaone/diviwallet/netparams"
+	"github.com/essentiaone/diviwallet/wallet"
 	flags "github.com/jessevdk/go-flags"
 	"github.com/lightninglabs/neutrino"
 )

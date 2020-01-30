@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/essentiaone/btcd/chaincfg"
+	"github.com/essentiaone/divid/chaincfg"
 	"github.com/essentiaone/btcutil"
 	"github.com/essentiaone/btcutil/hdkeychain"
-	"github.com/essentiaone/btcwallet/internal/zero"
-	"github.com/essentiaone/btcwallet/snacl"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/diviwallet/internal/zero"
+	"github.com/essentiaone/diviwallet/snacl"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 const (

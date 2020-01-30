@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/btcwallet/waddrmgr"
-	"github.com/essentiaone/btcwallet/walletdb"
-	_ "github.com/essentiaone/btcwallet/walletdb/bdb"
-	"github.com/essentiaone/btcwallet/wtxmgr"
+	"github.com/essentiaone/diviwallet/waddrmgr"
+	"github.com/essentiaone/diviwallet/walletdb"
+	_ "github.com/essentiaone/diviwallet/walletdb/bdb"
+	"github.com/essentiaone/diviwallet/wtxmgr"
 	"github.com/jessevdk/go-flags"
 )
 

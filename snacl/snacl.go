@@ -13,7 +13,7 @@ import (
 	"io"
 	"runtime/debug"
 
-	"github.com/essentiaone/btcwallet/internal/zero"
+	"github.com/essentiaone/diviwallet/internal/zero"
 	"github.com/essentiaone/golangcrypto/nacl/secretbox"
 	"github.com/essentiaone/golangcrypto/scrypt"
 )

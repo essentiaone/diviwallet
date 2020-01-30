@@ -13,7 +13,7 @@ import (
 	"strings"
 
 	"github.com/essentiaone/btcutil/hdkeychain"
-	"github.com/essentiaone/btcwallet/internal/legacy/keystore"
+	"github.com/essentiaone/diviwallet/internal/legacy/keystore"
 	"github.com/essentiaone/golangcrypto/ssh/terminal"
 )
 

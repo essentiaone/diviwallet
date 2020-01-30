@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sort"
 
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 var (

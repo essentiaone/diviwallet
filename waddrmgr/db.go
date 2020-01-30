@@ -12,8 +12,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 var (

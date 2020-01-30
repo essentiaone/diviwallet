@@ -12,16 +12,16 @@ import (
 
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/essentiaone/btcd/btcjson"
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
-	"github.com/essentiaone/btcd/rpcclient"
-	"github.com/essentiaone/btcd/txscript"
-	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/divid/btcjson"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/rpcclient"
+	"github.com/essentiaone/divid/txscript"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/btcwallet/internal/cfgutil"
-	"github.com/essentiaone/btcwallet/netparams"
-	"github.com/essentiaone/btcwallet/wallet/txauthor"
-	"github.com/essentiaone/btcwallet/wallet/txrules"
+	"github.com/essentiaone/diviwallet/internal/cfgutil"
+	"github.com/essentiaone/diviwallet/netparams"
+	"github.com/essentiaone/diviwallet/wallet/txauthor"
+	"github.com/essentiaone/diviwallet/wallet/txrules"
 	"github.com/jessevdk/go-flags"
 )
 

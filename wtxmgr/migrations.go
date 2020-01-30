@@ -1,8 +1,8 @@
 package wtxmgr
 
 import (
-	"github.com/essentiaone/btcwallet/walletdb"
-	"github.com/essentiaone/btcwallet/walletdb/migration"
+	"github.com/essentiaone/diviwallet/walletdb"
+	"github.com/essentiaone/diviwallet/walletdb/migration"
 )
 
 // versions is a list of the different database versions. The last entry should

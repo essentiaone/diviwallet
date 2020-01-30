@@ -52,7 +52,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	pb "github.com/essentiaone/btcwallet/rpc/walletrpc"
+	pb "github.com/essentiaone/diviwallet/rpc/walletrpc"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
@@ -394,7 +394,7 @@ Full instructions for this procedure can be found
 Generate Python stubs from the `.proto`:
 
 ```bash
-$ protoc -I /path/to/essentiaone/btcwallet/rpc --python_out=. --grpc_out=. \
+$ protoc -I /path/to/essentiaone/diviwallet/rpc --python_out=. --grpc_out=. \
   --plugin=protoc-gen-grpc=$(which grpc_python_plugin) \
   /path/to/btcwallet/rpc/api.proto
 ```

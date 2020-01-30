@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/essentiaone/btcd/chaincfg"
-	"github.com/essentiaone/btcwallet/walletdb"
-	"github.com/essentiaone/btcwallet/walletdb/migration"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/diviwallet/walletdb"
+	"github.com/essentiaone/diviwallet/walletdb/migration"
 )
 
 // versions is a list of the different database versions. The last entry should

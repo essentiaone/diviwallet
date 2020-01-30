@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/essentiaone/btcwallet/internal/zero"
+	. "github.com/essentiaone/diviwallet/internal/zero"
 )
 
 func makeOneBytes(n int) []byte {

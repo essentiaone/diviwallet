@@ -5,12 +5,12 @@
 package wallet
 
 import (
-	"github.com/essentiaone/btcd/txscript"
-	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/divid/txscript"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/btcwallet/chain"
-	"github.com/essentiaone/btcwallet/waddrmgr"
-	"github.com/essentiaone/btcwallet/wtxmgr"
+	"github.com/essentiaone/diviwallet/chain"
+	"github.com/essentiaone/diviwallet/waddrmgr"
+	"github.com/essentiaone/diviwallet/wtxmgr"
 )
 
 // RescanProgressMsg reports the current progress made by a rescan for a

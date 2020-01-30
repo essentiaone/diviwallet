@@ -4,6 +4,6 @@
 
 package main
 
-import "github.com/essentiaone/btcwallet/netparams"
+import "github.com/essentiaone/diviwallet/netparams"
 
 var activeNet = &netparams.MainNetParams

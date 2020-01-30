@@ -24,13 +24,13 @@ import (
 
 	"golang.org/x/crypto/ripemd160"
 
-	"github.com/essentiaone/btcd/btcec"
-	"github.com/essentiaone/btcd/chaincfg"
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
-	"github.com/essentiaone/btcd/txscript"
-	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/divid/btcec"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/txscript"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/btcwallet/internal/legacy/rename"
+	"github.com/essentiaone/diviwallet/internal/legacy/rename"
 )
 
 const (

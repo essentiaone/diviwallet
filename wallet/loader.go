@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/essentiaone/btcd/chaincfg"
-	"github.com/essentiaone/btcwallet/internal/prompt"
-	"github.com/essentiaone/btcwallet/waddrmgr"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/diviwallet/internal/prompt"
+	"github.com/essentiaone/diviwallet/waddrmgr"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 const (

@@ -7,7 +7,7 @@ package legacyrpc
 import (
 	"errors"
 
-	"github.com/essentiaone/btcd/btcjson"
+	"github.com/essentiaone/divid/btcjson"
 )
 
 // TODO(jrick): There are several error paths which 'replace' various errors

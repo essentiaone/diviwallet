@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/essentiaone/btcwallet/waddrmgr"
+	"github.com/essentiaone/diviwallet/waddrmgr"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

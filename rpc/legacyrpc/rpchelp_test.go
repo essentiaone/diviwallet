@@ -18,8 +18,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/essentiaone/btcd/btcjson"
-	"github.com/essentiaone/btcwallet/internal/rpchelp"
+	"github.com/essentiaone/divid/btcjson"
+	"github.com/essentiaone/diviwallet/internal/rpchelp"
 )
 
 func serverMethods() map[string]struct{} {

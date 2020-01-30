@@ -8,13 +8,13 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
-	"github.com/essentiaone/btcd/txscript"
-	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/txscript"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/btcwallet/waddrmgr"
-	"github.com/essentiaone/btcwallet/walletdb"
-	"github.com/essentiaone/btcwallet/wtxmgr"
+	"github.com/essentiaone/diviwallet/waddrmgr"
+	"github.com/essentiaone/diviwallet/walletdb"
+	"github.com/essentiaone/diviwallet/wtxmgr"
 )
 
 // TODO: It would be good to send errors during notification creation to the rpc

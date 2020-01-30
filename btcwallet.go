@@ -14,10 +14,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/essentiaone/btcwallet/chain"
-	"github.com/essentiaone/btcwallet/rpc/legacyrpc"
-	"github.com/essentiaone/btcwallet/wallet"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/diviwallet/chain"
+	"github.com/essentiaone/diviwallet/rpc/legacyrpc"
+	"github.com/essentiaone/diviwallet/wallet"
+	"github.com/essentiaone/diviwallet/walletdb"
 	"github.com/lightninglabs/neutrino"
 )
 

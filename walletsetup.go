@@ -11,16 +11,16 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/essentiaone/btcd/btcec"
-	"github.com/essentiaone/btcd/chaincfg"
-	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/divid/btcec"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/btcwallet/internal/legacy/keystore"
-	"github.com/essentiaone/btcwallet/internal/prompt"
-	"github.com/essentiaone/btcwallet/waddrmgr"
-	"github.com/essentiaone/btcwallet/wallet"
-	"github.com/essentiaone/btcwallet/walletdb"
-	_ "github.com/essentiaone/btcwallet/walletdb/bdb"
+	"github.com/essentiaone/diviwallet/internal/legacy/keystore"
+	"github.com/essentiaone/diviwallet/internal/prompt"
+	"github.com/essentiaone/diviwallet/waddrmgr"
+	"github.com/essentiaone/diviwallet/wallet"
+	"github.com/essentiaone/diviwallet/walletdb"
+	_ "github.com/essentiaone/diviwallet/walletdb/bdb"
 )
 
 // networkDir returns the directory name of a network directory to hold wallet

@@ -6,9 +6,9 @@
 package wtxmgr
 
 import (
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
-	"github.com/essentiaone/btcd/wire"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 // insertMemPoolTx inserts the unmined transaction record.  It also marks

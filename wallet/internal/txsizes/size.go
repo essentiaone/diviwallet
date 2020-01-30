@@ -5,10 +5,10 @@
 package txsizes
 
 import (
-	"github.com/essentiaone/btcd/blockchain"
-	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/divid/blockchain"
+	"github.com/essentiaone/divid/wire"
 
-	h "github.com/essentiaone/btcwallet/internal/helpers"
+	h "github.com/essentiaone/diviwallet/internal/helpers"
 )
 
 // Worst case script and input/output size estimates.

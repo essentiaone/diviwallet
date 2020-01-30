@@ -8,11 +8,11 @@
 // Full documentation of the API implemented by this package is maintained in a
 // language-agnostic document:
 //
-//   https://github.com/essentiaone/btcwallet/blob/master/rpc/documentation/api.md
+//   https://github.com/essentiaone/diviwallet/blob/master/rpc/documentation/api.md
 //
 // Any API changes must be performed according to the steps listed here:
 //
-//   https://github.com/essentiaone/btcwallet/blob/master/rpc/documentation/serverchanges.md
+//   https://github.com/essentiaone/diviwallet/blob/master/rpc/documentation/serverchanges.md
 package rpcserver
 
 import (
@@ -25,20 +25,20 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
-	"github.com/essentiaone/btcd/rpcclient"
-	"github.com/essentiaone/btcd/txscript"
-	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/rpcclient"
+	"github.com/essentiaone/divid/txscript"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
 	"github.com/essentiaone/btcutil/hdkeychain"
-	"github.com/essentiaone/btcwallet/chain"
-	"github.com/essentiaone/btcwallet/internal/cfgutil"
-	"github.com/essentiaone/btcwallet/internal/zero"
-	"github.com/essentiaone/btcwallet/netparams"
-	pb "github.com/essentiaone/btcwallet/rpc/walletrpc"
-	"github.com/essentiaone/btcwallet/waddrmgr"
-	"github.com/essentiaone/btcwallet/wallet"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/diviwallet/chain"
+	"github.com/essentiaone/diviwallet/internal/cfgutil"
+	"github.com/essentiaone/diviwallet/internal/zero"
+	"github.com/essentiaone/diviwallet/netparams"
+	pb "github.com/essentiaone/diviwallet/rpc/walletrpc"
+	"github.com/essentiaone/diviwallet/waddrmgr"
+	"github.com/essentiaone/diviwallet/wallet"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 // Public API version constants

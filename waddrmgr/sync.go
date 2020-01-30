@@ -7,8 +7,8 @@ package waddrmgr
 import (
 	"time"
 
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 // BlockStamp defines a block (by height and a unique hash) and is used to mark

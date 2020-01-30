@@ -6,7 +6,7 @@
 
 package rpchelp
 
-import "github.com/essentiaone/btcd/btcjson"
+import "github.com/essentiaone/divid/btcjson"
 
 // Common return types.
 var (

@@ -8,14 +8,14 @@ package txauthor
 import (
 	"errors"
 
-	"github.com/essentiaone/btcd/chaincfg"
-	"github.com/essentiaone/btcd/txscript"
-	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/txscript"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/btcwallet/wallet/txrules"
+	"github.com/essentiaone/diviwallet/wallet/txrules"
 
-	h "github.com/essentiaone/btcwallet/internal/helpers"
-	"github.com/essentiaone/btcwallet/wallet/internal/txsizes"
+	h "github.com/essentiaone/diviwallet/internal/helpers"
+	"github.com/essentiaone/diviwallet/wallet/internal/txsizes"
 )
 
 // InputSource provides transaction inputs referencing spendable outputs to

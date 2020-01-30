@@ -8,9 +8,9 @@ package wtxmgr
 import (
 	"fmt"
 
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
 	"github.com/essentiaone/btcutil"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 // CreditRecord contains metadata regarding a transaction credit for a known

@@ -6,9 +6,9 @@
 package wallet
 
 import (
-	"github.com/essentiaone/btcd/txscript"
-	"github.com/essentiaone/btcd/wire"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/divid/txscript"
+	"github.com/essentiaone/divid/wire"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 // OutputSelectionPolicy describes the rules for selecting an output from the

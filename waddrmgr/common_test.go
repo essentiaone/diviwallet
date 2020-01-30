@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/essentiaone/btcd/chaincfg"
-	"github.com/essentiaone/btcwallet/walletdb"
-	_ "github.com/essentiaone/btcwallet/walletdb/bdb"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/diviwallet/walletdb"
+	_ "github.com/essentiaone/diviwallet/walletdb/bdb"
 )
 
 var (

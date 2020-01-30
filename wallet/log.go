@@ -6,9 +6,9 @@ package wallet
 
 import (
 	"github.com/btcsuite/btclog"
-	"github.com/essentiaone/btcwallet/waddrmgr"
-	"github.com/essentiaone/btcwallet/walletdb/migration"
-	"github.com/essentiaone/btcwallet/wtxmgr"
+	"github.com/essentiaone/diviwallet/waddrmgr"
+	"github.com/essentiaone/diviwallet/walletdb/migration"
+	"github.com/essentiaone/diviwallet/wtxmgr"
 )
 
 // log is a logger that is initialized with no output filters.  This

@@ -8,7 +8,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/diviwallet/walletdb"
 	"github.com/coreos/bbolt"
 )
 

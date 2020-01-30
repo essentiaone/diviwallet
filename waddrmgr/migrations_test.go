@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/essentiaone/btcd/chaincfg"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 // applyMigration is a helper function that allows us to assert the state of the

@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/btcwallet/walletdb"
-	"github.com/essentiaone/btcwallet/walletdb/migration"
+	"github.com/essentiaone/diviwallet/walletdb"
+	"github.com/essentiaone/diviwallet/walletdb/migration"
 	"github.com/davecgh/go-spew/spew"
 )
 

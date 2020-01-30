@@ -16,7 +16,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/essentiaone/btcwallet/walletdb/walletdbtest"
+	"github.com/essentiaone/diviwallet/walletdb/walletdbtest"
 )
 
 // TestInterface performs all interfaces tests for this database driver.

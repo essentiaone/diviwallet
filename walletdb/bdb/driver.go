@@ -7,7 +7,7 @@ package bdb
 import (
 	"fmt"
 
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 const (

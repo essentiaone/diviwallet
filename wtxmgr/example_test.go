@@ -7,10 +7,10 @@ package wtxmgr
 import (
 	"fmt"
 
-	"github.com/essentiaone/btcd/chaincfg"
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
-	"github.com/essentiaone/btcd/wire"
-	"github.com/essentiaone/btcwallet/walletdb"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
+	"github.com/essentiaone/diviwallet/walletdb"
 )
 
 var (

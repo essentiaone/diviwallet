@@ -11,10 +11,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/essentiaone/btcd/btcec"
-	"github.com/essentiaone/btcd/chaincfg"
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
-	"github.com/essentiaone/btcd/txscript"
+	"github.com/essentiaone/divid/btcec"
+	"github.com/essentiaone/divid/chaincfg"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/txscript"
 	"github.com/essentiaone/btcutil"
 	"github.com/davecgh/go-spew/spew"
 )

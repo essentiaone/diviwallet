@@ -8,8 +8,8 @@ package wallet
 import (
 	"time"
 
-	"github.com/essentiaone/btcd/chaincfg/chainhash"
-	"github.com/essentiaone/btcd/wire"
+	"github.com/essentiaone/divid/chaincfg/chainhash"
+	"github.com/essentiaone/divid/wire"
 	"github.com/essentiaone/btcutil"
 )
 
