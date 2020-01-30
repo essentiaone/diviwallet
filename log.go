@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 
 	"github.com/essentiaone/btcd/rpcclient"
-	"github.com/essentiaone/btclog"
+	"github.com/btcsuite/btclog"
 	"github.com/essentiaone/btcwallet/chain"
 	"github.com/essentiaone/btcwallet/rpc/legacyrpc"
 	"github.com/essentiaone/btcwallet/rpc/rpcserver"

@@ -22,7 +22,7 @@ import (
 	"github.com/essentiaone/btcd/btcjson"
 	"github.com/essentiaone/btcwallet/chain"
 	"github.com/essentiaone/btcwallet/wallet"
-	"github.com/essentiaone/websocket"
+	"github.com/btcsuite/websocket"
 )
 
 type websocketClient struct {

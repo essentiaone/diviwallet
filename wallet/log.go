@@ -5,7 +5,7 @@
 package wallet
 
 import (
-	"github.com/essentiaone/btclog"
+	"github.com/btcsuite/btclog"
 	"github.com/essentiaone/btcwallet/waddrmgr"
 	"github.com/essentiaone/btcwallet/walletdb/migration"
 	"github.com/essentiaone/btcwallet/wtxmgr"

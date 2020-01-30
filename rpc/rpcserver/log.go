@@ -20,7 +20,7 @@ import (
 
 	"google.golang.org/grpc/grpclog"
 
-	"github.com/essentiaone/btclog"
+	"github.com/btcsuite/btclog"
 )
 
 // UseLogger sets the logger to use for the gRPC server.
